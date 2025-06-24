@@ -51,8 +51,15 @@ jobs:
         id: metrics
         env:
           SOURCES: |
-            GitHub->https://github.com
-            Facebook->https://facebook.com
+            INDEX->https://index.trance-0.com
+            Blog->https://www.trance-0.com
+            NextCloud->https://nextcloud.trance-0.com
+            Codebook->https://code.trance-0.com
+            NoteNextra->https://notenextra.trance-0.com
+            NPS->https://nps.trance-0.com
+            Portainer->https://portainer.trance-0.com
+            NAS->https://nas.trance-0.com
+            Ollama->https://ollama.trance-0.com
           GITHUB_TOKEN: ${{ github.token }}
           JOB_NAME: ${{ github.workflow }}
           ARTIFACT_NAME: ${{ env.ARTIFACT_NAME }}
